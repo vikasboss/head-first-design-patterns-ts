@@ -1,1 +1,1 @@
-# head-first-design-patterns-java
+# head-first-design-patterns-typescript
