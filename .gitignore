@@ -1,0 +1,9 @@
+# Ignore all JavaScript files
+*.js
+
+# Ignore JS files in subdirectories
+**/*.js
+
+# Optionally ignore source maps too
+*.js.map
+**/*.js.map
