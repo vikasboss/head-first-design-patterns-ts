@@ -1,4 +1,4 @@
-import { QuackBehaviour } from './QuackBehaviour';
+import { QuackBehaviour } from "./QuackBehaviour";
 
 export class MuteQuack implements QuackBehaviour {
   quack(): void {

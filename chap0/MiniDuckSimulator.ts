@@ -1,4 +1,4 @@
-import { MallardDuck } from './MallardDuck';
+import { MallardDuck } from "./MallardDuck";
 
 function main(): void {
   const mallard = new MallardDuck();
