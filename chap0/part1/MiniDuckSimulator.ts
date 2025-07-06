@@ -1,4 +1,6 @@
+import { FlyRocketPowered } from "./FlyRocketPowered";
 import { MallardDuck } from "./MallardDuck";
+import { ModelDuck } from "./ModelDuck";
 
 function main(): void {
   const mallard = new MallardDuck();
@@ -6,6 +8,12 @@ function main(): void {
   mallard.performQuack();
   mallard.performFly();
   mallard.swim();
+
+  //new examole
+  const model = new ModelDuck();
+  model.performFly();
+  model.setFlyBehaviour(new FlyRocketPowered());
+  model.performFly();
 }
 
 main();
