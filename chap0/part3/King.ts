@@ -1,10 +1,10 @@
 import { Character } from "./Character";
-import { KnifeWeaponBehaviour } from "./KnifeWeaponBehaviour";
+import { SwordWeaponBehaviour } from "./SwordWeaponBehaviour";
 
 export class King extends Character {
   constructor() {
     super();
-    this.weaponBehaviour = new KnifeWeaponBehaviour();
+    this.weaponBehaviour = new SwordWeaponBehaviour();
   }
   fight(): void {
     console.log("king started fighting");
