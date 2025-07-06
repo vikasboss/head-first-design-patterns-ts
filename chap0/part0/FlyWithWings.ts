@@ -1,4 +1,4 @@
-import { FlyBehaviour } from './FlyBehaviour';
+import { FlyBehaviour } from "./FlyBehaviour";
 
 export class FlyWithWings implements FlyBehaviour {
   fly(): void {

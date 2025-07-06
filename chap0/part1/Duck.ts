@@ -1,5 +1,5 @@
-import { FlyBehaviour } from './FlyBehaviour';
-import { QuackBehaviour } from './QuackBehaviour';
+import { FlyBehaviour } from "./FlyBehaviour";
+import { QuackBehaviour } from "./QuackBehaviour";
 
 export abstract class Duck {
   protected flyBehaviour!: FlyBehaviour;
@@ -8,9 +8,16 @@ export abstract class Duck {
   performFly(): void {
     this.flyBehaviour.fly();
   }
+  setFlyBehaviour(fb: FlyBehaviour): void {
+    this.flyBehaviour = fb;
+  }
 
   performQuack(): void {
     this.quackBehaviour.quack();
+  }
+
+  setQuackBehaviour(qb: QuackBehaviour): void {
+    this.quackBehaviour = qb;
   }
 
   swim(): void {
